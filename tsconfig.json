@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "module": "Preserve",
+        "target": "ES2022",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "allowImportingTsExtensions": true,
+        "useUnknownInCatchVariables": true,
+        "noEmit": true,
+        "declaration": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "baseUrl": ".",
+        "paths": {
+            "#/*": [
+                "./*"
+            ]
+        }
+    }
+}

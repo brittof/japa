@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start:dev": "bun run --hot bin/server.ts",
+    "migrate:up": "prisma migrate dev --name init --schema database/schema.prisma",
+    "generate:client": "prisma generate --schema database/schema.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "5.15.0",
+    "edge.js": "^6.0.2",
+    "hono": "^4.4.2",
+    "prisma": "^5.15.0",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
